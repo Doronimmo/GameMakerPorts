@@ -81,13 +81,11 @@ Download the right wrapper APK:
 ---
 
 ### Step 5: Rework the Example Package
-Modify the [template package]() for your chosen game.  
-You’ll place:
-- Game assets inside `/assets`  
-- Required libraries inside `/lib`  
-- Config in `gmloader.json`  
+Modify the [template package](https://github.com/Doronimmo/GameMakerPorts/raw/refs/heads/main/Test/portname.zip) for your chosen game. (only gmloader-next.aarch64 for now)  
 
-See [Packaging](#5-packaging) for file structure details.
+Add:
+- Game assets inside `/assets`  
+- Your wrapper renamed to `game.port`
 
 Extra, costume port name and folder: 
 Change `portname` in line 20 of `Portname.sh` to your folder name. Example: `GAMEDIR="/$directory/ports/applerabbledazzle"`
