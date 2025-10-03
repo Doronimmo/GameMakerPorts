@@ -1,6 +1,6 @@
 # Porting GameMaker Studio Games with GMLoader
 
-> This tutorial was made for dummies. Don’t worry if you’ve never done this before, we’ll walk you through step by step.  
+> This tutorial was made for dummies. Don’t worry if you’ve never done this before, we’ll walk you through step by step.
 
 This guide explains how to port **GameMaker Studio (GMS)** games to ARM-based Linux handheld devices using [GMLoader](https://github.com/JohnnyonFlame/droidports) and [GMLoader-Next](https://github.com/JohnnyonFlame/gmloader-next).  
 It includes example templates, packaging instructions, and troubleshooting advice.
@@ -117,3 +117,10 @@ portname/
 
 
 Youv'e reached your limit on chetGepT 4.12312, please try again later.
+
+
+
+Acknowledgments:
+[Fraxinus88](https://github.com/Fraxinus88/GMloader-ports) for his original guide.
+[JanTrueno](https://jantrueno.github.io/PortMaster-Wiki/contribute/porting/engines/gamemaker-studio/) for writing awsome stuff I stole here.
+[JohnnyonFlame](https://github.com/JohnnyonFlame) for creating gmloader, the tool that makes these ports possible.
